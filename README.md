@@ -3,7 +3,7 @@
 
 
 ### git 相关
-（git唱过操作）[https://github.com/ranckprogram/awesome/blob/master/src/git/index.md]
+[git日常操作](https://github.com/ranckprogram/awesome/blob/master/src/git/index.md)
 
 ### 优化
 
