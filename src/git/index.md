@@ -11,7 +11,6 @@ git push
 
 ```
 
-
 ### 设置git
 
 - 生成密钥
@@ -51,3 +50,29 @@ git remote origin set-url [url]
 git pull origin master –allow-unrelated-histories
 ```
 
+
+> 新增分支
+```
+git branch dev  // 新增dev分支
+git checkout -b dev // 加 -b切换， 新增分支并切换
+```
+
+> 切换分支
+
+```
+ git checkout dev
+```
+
+> 删除分支
+
+```
+git branch -d dev
+```
+
+> 查看分支
+
+```
+git branch -a // 查看所有
+git branch -r // 查看远程分支
+git branch   // 查看本地分支
+```
