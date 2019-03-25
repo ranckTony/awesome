@@ -11,4 +11,4 @@
 
 > 部署方面
 - nginx 部署和配置
-- express 代理 + 静态资源服务
+- express http-proxy-middleware 代理 + 静态资源服务
