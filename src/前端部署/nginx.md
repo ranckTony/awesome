@@ -1,3 +1,3 @@
 ### 下载安装
 
-[nginx](http://nginx.org/en/download.html)
+[nginx 下载](http://nginx.org/en/download.html)
