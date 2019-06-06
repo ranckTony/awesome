@@ -47,7 +47,8 @@ git remote origin set-url [url]
 
 > 拉取合并两个独立仓库的历史
 ```
-git pull origin master –allow-unrelated-histories
+git pull origin master --allow-unrelated-histories
+
 ```
 
 
