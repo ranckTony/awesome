@@ -85,5 +85,55 @@ createElement 的前两个参数很定，type props ， 但是之后的参数如
 
 react16后的核心
 
+每一个ReactElement都创建一个Fiber对象来存放状态，所以函数式组件使用hooks管理状态提供可能
+不再局限于Component的this.state
+
+> 属性
+
+- Fiber
+- return （父节点）
+- child  （第一个子节点）
+- sibling （下一个兄弟节点）
+
+高效率遍历一棵树
+
+- tag 组件类型
+- key
+- type elementType
+- stateNode 实例
+- ref
+- pendingProps 新的props
+- memozieState
+- 
 
 
+### Update
+
+记录组件的改变，存放于updateQueue，多个update存在
+
+- tag
+- payload
+- next 下一个update 单向链表
+- 
+
+### expirationTime的算法
+
+- requestCurrentTime
+
+
+计算结果的值相差25的话默认为相等
+
+101除以25取整
+```
+101/25 | 0 
+
+
+(x /25 | 0 + 1 ) *25
+```
+
+
+### ReactFiberReconciler
+
+scheduler 调度
+
+保证高优先级的任务优先执行，例如：动画流畅
