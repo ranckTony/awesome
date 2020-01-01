@@ -59,4 +59,29 @@ curl -v http://www.baidu.com
 ```
 
 
-### CORS 
+### http访问控制 CORS 跨域资源共享
+
+浏览器的安全策略，
+
+```
+Access-Control-Allow-Origin
+```
+
+简单请求
+
+
+cors 预请求
+
+get post header不需要预请求
+
+content-type不属于
+- application/x-www-form-urlencoded
+- multipart/form-data
+- text/plain
+
+```
+Access-Control-Allow-Origin: http://foo.example
+Access-Control-Allow-Methods: POST, GET, OPTIONS
+Access-Control-Allow-Headers: X-PINGOTHER, Content-Type
+Access-Control-Max-Age: <s>  // 多少秒内不需要发送预请求
+```
