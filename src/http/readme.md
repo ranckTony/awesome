@@ -112,3 +112,14 @@ Cache-control: must-revalidate // max-age失效 原服务端缓存验证
 
 - Last-Modified
 - ETag
+
+
+### session 和 cookie
+
+- 不能跨域设置cookie
+- session实现可以通过cookie或者其它方式实现
+- httpOnly，禁止客户端读取cookie
+- max-age
+- domain设置cookie的域
+- 同源请求中request将cookie拼接成字符串传到服务器
+
