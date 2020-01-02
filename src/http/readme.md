@@ -85,3 +85,30 @@ Access-Control-Allow-Methods: POST, GET, OPTIONS
 Access-Control-Allow-Headers: X-PINGOTHER, Content-Type
 Access-Control-Max-Age: <s>  // 多少秒内不需要发送预请求
 ```
+
+### http缓存
+
+```
+Cache-Control: private
+```
+
+- private 只有请求者可以缓存 
+- public 任何代理都可以缓存
+- no-store 不缓存，永远在服务端那最新的数据
+- no-cache 验证缓存，可以使用缓存，但是需要在服务器验证
+
+```
+Cache-Control: max-age=31536000 // 缓存多少秒，浏览器缓存，（url不变的情况）不会向服务端发送请求的
+
+s-maxage // 只有代理服务器中才有效
+```
+
+#### 重新验证
+```
+Cache-control: must-revalidate // max-age失效 原服务端缓存验证
+```
+
+#### 缓存验证
+
+- Last-Modified
+- ETag
