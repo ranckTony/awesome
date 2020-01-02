@@ -76,7 +76,7 @@ get post header不需要预请求
 
 content-type不属于
 - application/x-www-form-urlencoded
-- multipart/form-data
+- multipart/form-data 二进制
 - text/plain
 
 ```
@@ -123,3 +123,46 @@ Cache-control: must-revalidate // max-age失效 原服务端缓存验证
 - domain设置cookie的域
 - 同源请求中request将cookie拼接成字符串传到服务器
 
+### http长连接
+
+一个tcp连接中进行多个http请求减少三次握手的开销，可设置超时断开
+chrome允许并发六个tcp连接
+
+```
+Connection: keep-alive | close
+```
+
+http2 信道复用，一个tcp一切ok
+www.google.com 做到了
+
+### http数据协商
+
+> 客服端要求
+- Accept 申明想要的数据类型
+- Accep-Encoding  编码压缩方式
+- Accept-Language 语言
+- User-Agent 客户端
+
+> 服务端返回
+- Content-Type
+- Content-Encoding
+- Content-language
+
+### 重定向
+
+301 永久重定向，缓存在浏览器
+302 临时重定向
+
+### 内容安全策略 CSP
+
+```
+ Content-Security-Policy
+```
+
+xss 脚本注入攻击，富文本编辑器中插入脚本
+
+```
+Content-Security-Policy: default-src https:
+
+Content-Security-Policy-Report-Only: default-src https:; report-uri /csp-violation-report-endpoint/
+```
