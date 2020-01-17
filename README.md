@@ -5,7 +5,7 @@
 https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/A_re-introduction_to_JavaScript
 
 ### git 相关
-[git日常操作](https://github.com/ranckprogram/awesome/blob/master/src/git/index.md)
+[git日常操作](https://github.com/ranckprogram/awesome/blob/master/src/git/常用指令.md)
 
 ### 优化
 
