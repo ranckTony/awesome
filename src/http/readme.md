@@ -113,6 +113,7 @@ Cache-control: must-revalidate // max-age失效 原服务端缓存验证
 - Last-Modified
 - ETag
 
+上次修改时间，请求里面带If-modified-Sence
 
 ### session 和 cookie
 
@@ -148,6 +149,11 @@ www.google.com 做到了
 - Content-Encoding
 - Content-language
 
+
+Vary 指定一个请求头，控制缓存
+header-name
+User-Agent 
+
 ### 重定向
 
 301 永久重定向，缓存在浏览器
@@ -166,3 +172,32 @@ Content-Security-Policy: default-src https:
 
 Content-Security-Policy-Report-Only: default-src https:; report-uri /csp-violation-report-endpoint/
 ```
+
+
+### https
+
+- 公钥
+- 私钥（服务器上）
+
+握手的时候传输公钥
+
+三个随机数生成主密钥进行传输数据加密
+
+客户端，随机数，加密套件
+服务端，公钥，随机数
+客户端 加密随机数
+
+
+#### 用nignx部署https服务
+
+https 默认端口 443
+
+chrome 认为权威机构签发的证书才算安全
+
+
+#### http2
+
+- 信道复用
+- 分帧传送
+- server push 服务端推送
+
