@@ -11,12 +11,13 @@ https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/A_re-introduction_to_Jav
 
 
 ### 代码管理 git
-- [git日常操作](https://github.com/ranckprogram/awesome/blob/master/src/git/常用指令.md)
+- [git日常操作](/src/git/常用指令.md)
 
 
 ### webpack
 
 ### http协议
+ - [http总揽](/src/http/readme.md)
 
 ### 接口规范
 
