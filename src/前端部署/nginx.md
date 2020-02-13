@@ -30,3 +30,26 @@
     gzip on; 
 
   ```
+
+### 配置案例
+
+```
+server {
+  listen 8080;
+  server_name 20.20.20.20;
+
+  location / {
+    root /home/html;
+    try_files $uri $uri/ /index.html;
+  }
+
+  location /api {
+    proxy_paas http://20.110.2.3/api;
+  }
+
+  location /auth {
+    proxy_paas http:/www.auth.com/auth;
+  }
+}
+
+```

@@ -26,9 +26,10 @@ https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/A_re-introduction_to_Jav
 
 ### 优化
 
+- [常规优化](/src/optimize/常规优化.md)
 - 加载优化
 - 渲染优化
-
+- chrome火焰图(https://blog.csdn.net/kongduxue/article/details/82017491)
 
 ### 前端部署
 
