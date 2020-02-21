@@ -40,6 +40,12 @@ https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/A_re-introduction_to_Jav
 
 - 列表查询，数据增删
 - 
-- 权限系统
+- 权限系统 token tkoen refresh？
 - 监控系统
 - 测试系统？
+
+
+
+### 功能模块
+
+- [ ] 滑动验证（https://dun.163.com/trial/sense）
