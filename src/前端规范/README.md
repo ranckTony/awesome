@@ -3,6 +3,9 @@
   - [目的](#goal)
   - [项目结构](#structure)
   - [组件编写](#component)
+    - [模板编写](#template)
+    - [脚本编写](#script)
+    - [样式编写](#style)
   - [ES规范](#es)
   - [less](#less)
 
@@ -45,12 +48,6 @@
  
 ```
 
-<h3 id="name">命名规范</h3>
-
-
-
-
-
 - 方法命名
 	- 操作方法
 	- 数据处理方法
@@ -58,21 +55,19 @@
 
 
 
-- 
-- 
-
-
 <h3 id="component">组件编写</h3>
 
 - 文件结构
 ```
 |-components
- |-BaseButton.vue
- |-BaseInput.vue
- |-Search.vue
- |-SearchButton.vue
+ |-BaseButton
+ |-BaseInput
+ |-Search
+ |-SearchButton
 ```
+<h5 id="template">模板编写</h5>
 
+<h5 id="script">脚本编写</h5>
 - vue属性方法次序
 
 ```
@@ -82,10 +77,25 @@
 - computed
 - created
 - mounted
-- metods
+- methods
 - filter
 - watch
 ```
+
+- 方法
+  
+vue 组件中的方法通常用于请求数据，数据转换，事件回调，因此命名方面建议加上特定的前缀,小驼峰
+
+```javascript
+methods: {
+    getDataList () {},
+    executeDataList () {},
+    handleSubmit () {},
+}
+```
+    
+
+
 
 - 指令书写：
   - v-for 必须使用key，并且不能直接使用索引或者其他不具备唯一标识的数据充当key；
@@ -94,7 +104,7 @@
 - style
   - 指定less作为
   - 组件内部专属样式设置scoped
-  - 
+  - 选择器层级不超过3层
 
 
 
