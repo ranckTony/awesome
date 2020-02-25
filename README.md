@@ -24,7 +24,7 @@ https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/A_re-introduction_to_Jav
 ### 代码管理 git
 - [git日常操作](/src/git/常用指令.md)
 - [commit书写规范](/src/git/commit书写规范.md)
-
+- [前段代码分支管理策略](/src/git/前端代码分支管理策略.md)
 ### webpack
 - [webpack基础](/src/webpack/webpack基础.md)
 - [webpack实战](/src/webpack/webpack实战.md)
