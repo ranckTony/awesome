@@ -7,7 +7,12 @@
 - eslint插件：语法检测
 - Project manager: 项目管理
 - Markdown All in one
-- 
+- 代码块生成
+- 自动闭合标签  Auto Close Tag
+- 路径提示 Path Intellisense
+- 括号高亮  Bracket Pair Colorizer
+-  Vetur | Vue 2 Snippets
+- HTML Snippets
 
 
 
