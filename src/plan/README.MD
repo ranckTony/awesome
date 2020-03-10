@@ -15,3 +15,8 @@
 
 
 > 前端架构师 https://blog.csdn.net/CooliYellow/article/details/82939417
+
+
+解析四则运算  栈
+
+策略模式
