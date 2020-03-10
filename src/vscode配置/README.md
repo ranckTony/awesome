@@ -21,3 +21,9 @@
 - background 
 - "window.titleBarStyle": "custom",//首先把标题栏改为非原生的
 
+
+
+### Path Intellisense 处理@问题
+
+
+
