@@ -4,8 +4,16 @@
 
 ### react的组成部分
 - react-router
-- react-
+- redux
 
 ### react的原理
+- 虚拟dom
+- 递归渲染
+- reconcile（diff算法）
+- 批量更新，队列
+- fiber架构
+- 
 
-### react和vue的比较
+### react的UI库
+
+- antd

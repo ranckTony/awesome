@@ -2,6 +2,8 @@
 
 我的知识库
 
+vuepress 搭建博客
+
 ### javascript
 - [重新介绍javascript](
 https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
@@ -49,6 +51,7 @@ https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/A_re-introduction_to_Jav
 
 - [nginx](/src/前端部署/nginx.md)
 - [express](/src/前端部署/express部署.md)
+- [docker](/src/前端部署/docker.md)
 - 服务端渲染
 
 ### 常见业务实现策略
@@ -65,6 +68,9 @@ https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/A_re-introduction_to_Jav
 ### 功能模块
 
 - [ ] 滑动验证（https://dun.163.com/trial/sense）
+
+
+### 项目需求文档
 
 
 ### 项目中遇到的稀奇古怪的记录

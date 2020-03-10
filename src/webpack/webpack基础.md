@@ -7,10 +7,12 @@ webpack是一个前端静态打包工具
   - [ ] webpack原理，源码层面
   - [ ] 配置react typescript 的项目
   - [ ] 按需加载antd lodash moment等插件
+  - [ ] 开发性能优化，运行性能优化，快速编译
   - [ ] 了解常用的loader，plugin
   - [ ] 学会loader编写
   - [ ] 学会plugin编写
-
+  - [ ] 工程化代码分割，多团队代码复用
+ 
 ### webpack核心概念
 
 #### 一、入口entry 

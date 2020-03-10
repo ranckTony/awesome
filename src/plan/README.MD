@@ -4,9 +4,12 @@
 - react-native 使用
 - vue原理
 - svg基础
+- Echarts熟练
 - d3 使用
 - webpack
-
+- 组件库
+- 组件库文档
+- 需求文档
 
 
 > 部署方面
