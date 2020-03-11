@@ -23,4 +23,23 @@
 
 ```
 
+### 测试配置
+
+```
+/usr/local/nginx/sbin/nginx -t
+
+/usr/local/nginx/sbin/nginx -t -c /usr/local/nginx/conf/nginx.conf
+
+```
+
 ### 热启动
+
+
+http2
+
+./configure --prefix=/usr/local/nginx --with-http_v2_module --with-http_ssl_module --with-openssl=/usr/local/openssl-1.1.1d
+
+
+ngx_http_ssl_module
+
+./configure --prefix=/usr/local/nginx  --with-http_v2_module --with-http_ssl_module 
