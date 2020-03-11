@@ -2,14 +2,12 @@
 
 我的知识库
 
-vuepress 搭建博客
-
 ### javascript
 - [重新介绍javascript](
 https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
 - js难点问题
   - bind，apply，call的区别
-  - js宏任务，事件循环，异步线程
+  - [JavaScript运行机制](/src/javascript基础/JavaScript运行机制.md)
 - es6常用语法
 - typescript
 
@@ -71,6 +69,11 @@ https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/A_re-introduction_to_Jav
 
 
 ### 项目需求文档
+
+### 静态文档工具
+
+- vuepress 搭建博客
+- gitbook
 
 
 ### 项目中遇到的稀奇古怪的记录
