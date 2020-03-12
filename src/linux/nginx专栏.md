@@ -37,7 +37,6 @@
 
 http2
 
-./configure --prefix=/usr/local/nginx --with-http_v2_module --with-http_ssl_module --with-openssl=/usr/local/openssl-1.1.1d
 
 
 ngx_http_ssl_module

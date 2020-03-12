@@ -47,6 +47,8 @@ https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/A_re-introduction_to_Jav
 
 ### 前端部署
 
+windows 下使用 WinSCP上传到服务器
+
 - [nginx](/src/前端部署/nginx.md)
 - [express](/src/前端部署/express部署.md)
 - [docker](/src/前端部署/docker.md)
