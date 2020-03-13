@@ -6,7 +6,7 @@
 |f|file 文件名|
 |v|visible view显示|
 |z|gzip指令|
-|||
+|x|extract 提取，解压|
 
 
 
@@ -21,3 +21,10 @@ tar  -czvf config.tar.gz /home/config
 tar -xzvf nginx.1.1.1.tar.gz
 
 ```
+
+
+# systemctl 
+
+系统和服务
+
+# 
