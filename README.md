@@ -83,3 +83,15 @@ windows 下使用 WinSCP上传到服务器
 - vue中的带事件原生富文本插入
 - 异步接口返回可读流图片，并在header中返回数据
 - 论vue组件化开发和样式统一管理的矛盾
+
+
+
+### 后端技术视野
+
+> 数据存储类
+- redis
+- mongo
+
+- ElasticSearch 分布式全文搜索引擎
+- kafka 
+- zookeeper
