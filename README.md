@@ -1,6 +1,8 @@
-## awesome
+# awesome
 
-我的知识库
+我的知识体系
+
+---
 
 ### javascript
 - [重新介绍javascript](
@@ -21,13 +23,16 @@ https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/A_re-introduction_to_Jav
 - 原理
 - 核心源码解读
 
+
+### webpack
+- [webpack基础](/src/webpack/webpack基础.md)
+- [webpack实战](/src/webpack/webpack实战.md)
+
 ### 代码管理 git
 - [git日常操作](/src/git/常用指令.md)
 - [commit书写规范](/src/git/commit书写规范.md)
 - [前段代码分支管理策略](/src/git/前端代码分支管理策略.md)
-### webpack
-- [webpack基础](/src/webpack/webpack基础.md)
-- [webpack实战](/src/webpack/webpack实战.md)
+
 
 
 ### http协议
@@ -95,3 +100,12 @@ windows 下使用 WinSCP上传到服务器
 - ElasticSearch 分布式全文搜索引擎
 - kafka 
 - zookeeper
+
+### linux
+
+- [linux学习路线]('/src/linux/linux学习路线.md')
+- [linux软件安装]('/src/linux/linux软件安装.md')
+- [mongo]('/src/linux/mongo.md')
+- [tar]('/src/linux/tar.md')
+- [vim]('/src/linux/vim.md')[学习中]
+- [linux小贴士]('/src/linux/linuxt小贴士.md')
