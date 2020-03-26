@@ -103,9 +103,9 @@ windows 下使用 WinSCP上传到服务器
 
 ### linux
 
-- [linux学习路线]('/src/linux/linux学习路线.md')
-- [linux软件安装]('/src/linux/linux软件安装.md')
-- [mongo]('/src/linux/mongo.md')
-- [tar]('/src/linux/tar.md')
-- [vim]('/src/linux/vim.md')[学习中]
-- [linux小贴士]('/src/linux/linuxt小贴士.md')
+- [linux学习路线](/src/linux/linux学习路线.md)
+- [linux软件安装](/src/linux/linux软件安装.md)
+- [mongo](/src/linux/mongo.md)
+- [tar](/src/linux/tar.md)
+- [vim](/src/linux/vim.md)[学习中]
+- [linux小贴士](/src/linux/linux小贴士.md)
