@@ -6,7 +6,7 @@
 
 - express
     - body-parse
-    - 
+    - nodemailer
 
 ## 框架思想
 
