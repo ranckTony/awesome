@@ -1,6 +1,8 @@
-## awesome
+# awesome
 
-我的知识库
+我的知识体系
+
+---
 
 ### javascript
 - [重新介绍javascript](
@@ -21,13 +23,16 @@ https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/A_re-introduction_to_Jav
 - 原理
 - 核心源码解读
 
+
+### webpack
+- [webpack基础](/src/webpack/webpack基础.md)
+- [webpack实战](/src/webpack/webpack实战.md)
+
 ### 代码管理 git
 - [git日常操作](/src/git/常用指令.md)
 - [commit书写规范](/src/git/commit书写规范.md)
 - [前段代码分支管理策略](/src/git/前端代码分支管理策略.md)
-### webpack
-- [webpack基础](/src/webpack/webpack基础.md)
-- [webpack实战](/src/webpack/webpack实战.md)
+
 
 
 ### http协议
@@ -57,7 +62,7 @@ windows 下使用 WinSCP上传到服务器
 ### 常见业务实现策略
 
 - 列表查询，数据增删
-- 
+- 单点登录
 - 权限系统 token tkoen refresh？
 - 监控系统
 - 测试系统？
@@ -83,3 +88,24 @@ windows 下使用 WinSCP上传到服务器
 - vue中的带事件原生富文本插入
 - 异步接口返回可读流图片，并在header中返回数据
 - 论vue组件化开发和样式统一管理的矛盾
+
+
+
+### 后端技术视野
+
+> 数据存储类
+- redis
+- mongo
+
+- ElasticSearch 分布式全文搜索引擎
+- kafka 
+- zookeeper
+
+### linux
+
+- [linux学习路线](/src/linux/linux学习路线.md)
+- [linux软件安装](/src/linux/linux软件安装.md)
+- [mongo](/src/linux/mongo.md)
+- [tar](/src/linux/tar.md)
+- [vim](/src/linux/vim.md)[学习中]
+- [linux小贴士](/src/linux/linux小贴士.md)
