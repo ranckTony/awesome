@@ -5,6 +5,11 @@
 - 优化团队协作
 
 
+
+
+
+易扩展，好维护，有规范
+
 ### 组件化 components
 
 - 那些地方应该被抽成组件
@@ -21,6 +26,9 @@
 
 
 ### 页面 pages
+
+每个页面的根标签需要一个专属class，[system]-[module]-[function]-[point]
+
 
 - pageModuleOne
   - index.vue
@@ -43,8 +51,8 @@
 - 常用工具函数集
 - axios二次封装
   - 请求拦截，控制token
-  - 提供多个子方法 get post put del
-  - 
+  - 提供多个子方法 get post put del download action axios
+  - 请求中止
 
 ### 全局状态 store
 
@@ -57,7 +65,7 @@
 ### 资源库 assets
 
 - css（stylus）
-  - 全局变量 var.styl 
+  - var.styl (全局变量)
   - reset.styl
   - base.styl
   - cover.styl
@@ -69,6 +77,8 @@
     - icon_
     - [module]_
 - fonts
+  - css
+  - svg（我更倾向，单独封装一个组件，不需要自己配置，还支持多颜色）
 
 
 ### 测试
@@ -88,4 +98,5 @@
   - lodash
 - 数据请求
   - axios
+  - fetch
 - 
