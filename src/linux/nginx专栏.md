@@ -41,4 +41,11 @@ http2
 
 ngx_http_ssl_module
 
+
+```
+yum -y install pcre-devel
+
+
+```
+
 ./configure --prefix=/usr/local/nginx  --with-http_v2_module --with-http_ssl_module 
