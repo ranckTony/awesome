@@ -90,3 +90,11 @@ service iptables restart
 
 
 300M =>500M
+
+
+
+```
+mongo --host localhost --port 27017  // 测试本连接
+
+mongo --host 10.0.0.181 --port 27017 // 测试远程， 防火墙，端口  0.0.0.0  
+```
