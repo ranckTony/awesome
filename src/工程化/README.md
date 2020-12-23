@@ -6,3 +6,5 @@
 
 
 Serverless、IDE、智能化、中后台、数据可视化、工程化、Node技术等
+
+http://www.xbhub.com/wiki/webpack/

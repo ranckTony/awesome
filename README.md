@@ -64,7 +64,8 @@ windows 下使用 WinSCP上传到服务器
 - 列表查询，数据增删
 - 单点登录
 - 权限系统 token tkoen refresh？
-- 监控系统
+- 监控系统  sendBeacon  window.performance 
+
 - 测试系统？
 - 流量控制系统
 
@@ -96,10 +97,13 @@ windows 下使用 WinSCP上传到服务器
 > 数据存储类
 - redis
 - mongo
+- mysql  https://juejin.cn/book/6844733769996304392
 
 - ElasticSearch 分布式全文搜索引擎
 - kafka 
 - zookeeper
+- docker k8s
+
 
 ### linux
 
@@ -109,3 +113,15 @@ windows 下使用 WinSCP上传到服务器
 - [tar](/src/linux/tar.md)
 - [vim](/src/linux/vim.md)[学习中]
 - [linux小贴士](/src/linux/linux小贴士.md)
+
+
+https://ssh-blog.vercel.app/
+
+
+
+前端代码测试 jestjs  https://jestjs.io/docs/zh-Hans/getting-started
+
+http://caibaojian.com/book/
+
+
+http://www.xbhub.com/wiki/webpack/
