@@ -11,8 +11,17 @@
 - 自动闭合标签  Auto Close Tag
 - 路径提示 Path Intellisense
 - 括号高亮  Bracket Pair Colorizer
--  Vetur | Vue 2 Snippets
+- Vetur | Vue 2 Snippets
+- VueHelper 
 - HTML Snippets
+- Document this 生成注释模板
+- GitLens 生成git记录
+- Import Cost 计算引用包大小
+- prettier code formatter
+- auto import
+
+
+
 
 
 
