@@ -18,7 +18,7 @@
 - GitLens 生成git记录
 - Import Cost 计算引用包大小
 - prettier code formatter
-- auto import
+- auto import 自动导入包
 
 
 
